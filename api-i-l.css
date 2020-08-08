@@ -1,9 +1,1 @@
-[data-templating] {
-	opacity: 0 !important;
-}
-
-[data-templating-auth-check-remove]:not([data-templating-auth-check-load-complete]),
-[data-templating-auth-check-guest]:not([data-templating-auth-check-load-complete])
-{
-  display: none !important;
-}
+[data-templating]{opacity:0!important}[data-templating-auth-check-guest]:not([data-templating-auth-check-load-complete]),[data-templating-auth-check-remove]:not([data-templating-auth-check-load-complete]){display:none!important}
